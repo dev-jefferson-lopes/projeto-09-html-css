@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.section-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* === topo menu === */
+.header-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header-section-logo {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+
+.header-section-logo img {
+    margin-right: 15px;
+    width: 80px;
+}
+
+.header-section-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.header-section-content nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-section-content nav ul li a:hover {
+    color: #2f86d6;
+    transition: .4s;
+}
+
+.header-section-content nav ul li a {
+    font-size: 1.15em;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #233032;
+}
+
+/* === banner === */
+.banner {
+    background-color: #2f86d6;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.banner-content-text h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.banner-content-text p{
+    font-size: 1em;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+/* === 1ª anuncio === */
