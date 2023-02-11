@@ -4,9 +4,9 @@ O propósito deste projeto é desenvolver um site para um fornecedor de hospedag
 A navegação entre as páginas será através de links localizados no topo das páginas e também por meio de botões presentes na página inicial (Home).
 
 ## Layout web
-![Web 1]()
+![Web 1](https://github.com/dev-jefferson-lopes/projeto-09-html-css/blob/main/assets/img/layout-pagina-home.png)
 
-![Web 2]()
+![Web 2](https://github.com/dev-jefferson-lopes/projeto-09-html-css/blob/main/assets/img/layout-pagina-tabeladeprecos.png)
 
 # Tecnologias utilizadas
 ## Front end
