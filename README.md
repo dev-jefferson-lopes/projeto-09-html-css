@@ -1,5 +1,7 @@
 # projeto-09-html-css
 
+https://effulgent-griffin-12759f.netlify.app
+
 O propósito deste projeto é desenvolver um site para um fornecedor de hospedagem, com duas seções distintas: Home e Tabela de Preços. Ambas as páginas exibirão uma tabela informativa para os usuários.
 A navegação entre as páginas será através de links localizados no topo das páginas e também por meio de botões presentes na página inicial (Home).
 
