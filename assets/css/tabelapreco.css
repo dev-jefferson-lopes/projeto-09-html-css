@@ -22,25 +22,25 @@ span {
 
 /* === topo menu === */
 
-.header-section-content {
+.header-section-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
 }
 
-.header-section-logo {
+.header-section-logo, .footer-logo{
     display: flex;
     align-items: center;
     line-height: 30px;
 }
 
-.header-section-logo img {
+.header-section-logo img, .footer-logo img {
     margin-right: 15px;
     width: 80px;
 }
 
-.header-section-logo p {
+.header-section-logo p, .footer-logo p{
     color: #ffffff;
     font-weight: 600;
 }
@@ -118,3 +118,34 @@ span {
     border-radius: 100%;
 }
 
+.footer-content{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f86d6;
+    border-top: 1px solid #f1f3f7;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-solutions{
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.front{
+    width: 100%;
+    font-size: .8em;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #f1f3f7;
+}
