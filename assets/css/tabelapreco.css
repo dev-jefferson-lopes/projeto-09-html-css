@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.section-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header-section {
+    background-color: #2f86d6;
+}
+
+span {
+    color: #2f86d6;
+}
+
+/* === topo menu === */
+
+.header-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header-section-logo {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+
+.header-section-logo img {
+    margin-right: 15px;
+    width: 80px;
+}
+
+.header-section-logo p {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.header-section-content nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-section-content nav ul li a:hover {
+    color: #233032;
+    transition: .4s;
+}
+
+.header-section-content nav ul li a {
+    font-size: 1.15em;
+    padding: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* === tabela === */
+
+.table-container {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container table th:first-of-type {
+    visibility: hidden;
+}
+
+.table-container table th {
+    background-color: #f1f3f7;
+    padding: 20px 40px;
+}
+
+.table-container table th:hover {
+    background-color: #2f86d6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table-container table td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.thead-block h3 {
+    font-size: 2.5em;
+}
+
+.thead-block p {
+    color: #a8a4a4;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.table-container td:first-child {
+    background-color: #f1f3f7;
+}
+
+.blue-marker::before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #2f86d6;
+    border-radius: 100%;
+}
+

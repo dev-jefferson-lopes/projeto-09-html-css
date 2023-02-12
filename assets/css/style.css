@@ -17,6 +17,7 @@ span {
 }
 
 /* === topo menu === */
+
 .header-section-content {
     display: flex;
     justify-content: space-between;
@@ -105,12 +106,14 @@ span {
     border-radius: 5px;
     display: flex;
     align-items: center;
+    font-weight: 700;
 }
 
 .publicity-section-content a:hover {
     color: #233032;
     background-color: #3391e9;
-    transition: .4s;
+    transition: .8s;
+    transform: scale(1.009);
 }
 
 .publicity-section-content a img, .publicity-section-two-content a img{
@@ -163,8 +166,6 @@ span {
     margin-bottom: 80px;
 }
 
-
-
 .thead-block {
     display: flex;
     flex-direction: column;
@@ -180,7 +181,6 @@ span {
     width: 100px;
     margin: 20px 0;
 }
-
 
 .subscription-plans table tbody tr:nth-of-type(odd){
     background-color: #eceaea;
@@ -200,8 +200,6 @@ span {
 }
 
 /* === anuncio 2 === */
-
-
 .publicity-section-two{
     background-color: #2f86d6;
 }
@@ -222,7 +220,7 @@ span {
 .publicity-section-two-content a{
     border-radius: 5px;
     font-size: 1.2em;
-    padding: 15px;
+    padding: 20px;
     font-weight: 700;
     background-color: #233032;
     text-decoration: none;
@@ -230,6 +228,12 @@ span {
     text-align: center;
     display: flex;
     align-items: center;
+}
+
+.publicity-section-two-content a:hover{
+    color: #9acbe3;
+    transition: .4s;
+    transform: scale(1.005);
 }
 
 .publicity-section-content a::before,
@@ -266,6 +270,7 @@ span {
     text-align: center;
     font-weight: bold;
     margin-bottom: 50px;
+    line-height: 40px;
 }
 
 .front{
